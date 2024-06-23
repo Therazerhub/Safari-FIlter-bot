@@ -117,7 +117,7 @@ else:
     ON_HEROKU = False
 BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
 FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
-URL = "https://{harsh0077h-67ac925272f2.herokuapp.com/}/".format(FQDN) if ON_HEROKU or NO_PORT else \
+URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
     "https://{harsh0077h-67ac925272f2.herokuapp.com/}:{8080}/".format(FQDN, PORT)
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
