@@ -130,9 +130,9 @@ async def force_sub(client, message):
     if AUTH_CHANNEL and not await is_subscribed(client, message):
         user = message.from_user.first_name
         btn = [[
-                InlineKeyboardButton("❆ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ ❆", url=https://t.me/ejiekwwjjw)
+                InlineKeyboardButton("❆ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ ❆", url=https://t.me/KH_NEW_MOVIES_PROVIDER)
               ]]
-        msg=await message.reply_photo(photo='https://graph.org/file/d345d3a4ddf3b3c50eea8.jpg',
+        msg=await message.reply_photo(photo='https://graph.org/file/09a2458b3cf8776ac44ae.jpg',
             caption=f"🌺𝐃𝐞𝐚𝐫 𝐮𝐬𝐞𝐫 {user}\n\n<b>𝘍𝘪𝘳𝘴𝘵 𝘺𝘰𝘶 𝘫𝘰𝘪𝘯 𝘰𝘶𝘳 𝘤𝘩𝘢𝘯𝘯𝘦𝘭 𝘢𝘯𝘥 𝘴𝘦𝘢𝘳𝘤𝘩 𝘢𝘨𝘢𝘪𝘯\n\n<i>पहले आप हमारे चैनल को ज्वाइन करे और फिर से सर्च करें</i></b>",
             reply_markup=InlineKeyboardMarkup(btn),
         )
