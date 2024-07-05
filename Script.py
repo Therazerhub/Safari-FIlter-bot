@@ -126,7 +126,7 @@ BOT {}"""
 ★ Message <code>{}</code>"""
 
     CAPTION = """
- 📂 <i><a href="https://t.me/+nAmW2gwVIYc2YTFl">{file_name}</a></i>\n\n"""
+ 📂<b><blockquote><b><a href="https://t.me/INFINITE_MOVIES_2024">{file_name}</a></b></blockquote>
 
     IMDB_TEMPLATE_TXT = """
 <b>
