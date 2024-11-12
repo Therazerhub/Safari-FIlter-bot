@@ -45,8 +45,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI',"mongodb+srv://razer:razer@moviestore2.l8vd0em.mongodb.net/?retryWrites=true&w=majority&appName=Moviestore2")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Moviestore2")
+DATABASE_URI = environ.get('DATABASE_URI',"mongodb+srv://razer:razer@cluster1.4uj5sms.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster1")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # fill premium users id
